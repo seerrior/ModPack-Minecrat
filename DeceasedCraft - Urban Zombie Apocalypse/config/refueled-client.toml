@@ -1,0 +1,28 @@
+
+[cars]
+	#Amount of zoom when sitting in a vehicle in 3rd person camera
+	#Range: 0.0 ~ 20.0
+	car_zoom = 4.0
+	#How loud the sound from the vehicles should be
+	#Range: 0.0 ~ 1.0
+	car_volume = 1.0
+	#Whether to display temperature as Fahrenheit
+	fahrenheit_display = false
+	#If [speed_display] is enabled, to display speed in miles per hour
+	speed_imperial = false
+	#Whether vehicle information in the gui should be display in percentages or units
+	unit_display = false
+	#Which stat's level should be shown as default in the meter bar of the vehicles' GUI
+	#Allowed Values: NONE, FUEL, HEALTH, BATTERY, TEMPERATURE
+	pinned_type = "NONE"
+	#Whether the player should be reminded how to start or open the vehicle's GUI
+	reminder = true
+	#Which info to display in the action bar while in a running vehicle
+	#Allowed Values: NONE, HEALTH, SPEED, BATTERY, TEMPERATURE, FUEL
+	info_display = "SPEED"
+
+	[cars.experimental]
+		#Makes the vehicles angle relative to blocks around it
+		#Only rotates on one axis
+		sloping = false
+

@@ -1,0 +1,28 @@
+
+#General settings
+[general]
+	#The red component of the hilight color one
+	#Range: 0 ~ 255
+	hilightR1 = 255
+	#The green component of the hilight color one
+	#Range: 0 ~ 255
+	hilightG1 = 255
+	#The blue component of the hilight color one
+	#Range: 0 ~ 255
+	hilightB1 = 255
+	#The red component of the hilight color two
+	#Range: 0 ~ 255
+	hilightR2 = 128
+	#The green component of the hilight color two
+	#Range: 0 ~ 255
+	hilightG2 = 128
+	#The blue component of the hilight color two
+	#Range: 0 ~ 255
+	hilightB2 = 128
+	#List of 6 entries with '<u,v>' coordinates in 'icons.png' to use for biome types when there is energy (order: OCEAN,MOUNTAIN,DESERT,FOREST,PLAINS,OTHER). Empty string means no texture.
+	biomeIconsOn = ["192,32", "", "", "192,64", "192,0", ""]
+	#List of 6 entries with '<u,v>' coordinates in 'icons.png' to use for biome types when there is no energy (order: OCEAN,MOUNTAIN,DESERT,FOREST,PLAINS,OTHER). Empty string means no texture.
+	biomeIconsOff = ["224,32", "", "", "224,64", "224,0", ""]
+	#List of 6 RGB hex colors to use for biome types (order: OCEAN,MOUNTAIN,DESERT,FOREST,PLAINS,OTHER). Values can be 'rrggbb' or '#rrggbb'.
+	biomeColors = ["0000ff", "8b4513", "ffff00", "006400", "00ff00", "22ee22"]
+
